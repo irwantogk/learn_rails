@@ -1,0 +1,2 @@
+class VideoChannel < ApplicationRecord
+end

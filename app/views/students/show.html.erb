@@ -1,0 +1,7 @@
+<h1>Show student</h1>
+
+<span>First Name : <%= @student.first_name %></span><br>
+<span>Last Name : <%= @student.last_name %></span><br>
+<span>Email : <%= @student.email %></span><br><br>
+
+<%= link_to 'Back', students_path %> | <%= link_to 'Edit', edit_student_path(@student) %>
